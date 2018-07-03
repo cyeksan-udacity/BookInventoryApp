@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.products.ProductDetail">
+
+        <ImageView
+            android:id="@+id/product_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_dimension"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_action_book" />
+
+        <LinearLayout
+            style="@style/marginStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bookName"
+                android:textSize="@dimen/detail_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/marginStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Quantity"
+                android:textSize="@dimen/detail_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus_button"
+                android:layout_width="@dimen/quantity_button_width"
+                android:layout_height="@dimen/quantity_button_height"
+                android:background="@null"
+                android:text="@string/minus"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/detail_size" />
+
+            <TextView
+                android:id="@+id/product_quantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/detail_size" />
+
+            <Button
+                android:id="@+id/plus_button"
+                android:layout_width="@dimen/quantity_button_width"
+                android:layout_height="@dimen/quantity_button_height"
+                android:background="@null"
+                android:text="@string/plus"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/detail_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/marginStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textSize="@dimen/detail_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_product_price"
+                android:textSize="@dimen/detail_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/marginStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/supplierName"
+                android:textSize="@dimen/detail_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/supplier_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/marginStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/supplierPhone"
+                android:textSize="@dimen/detail_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/supplier_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/edit_button"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:text="@string/editButton" />
+
+            <Button
+                android:id="@+id/delete_button"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deleteButton" />
+
+            <Button
+                android:id="@+id/contact_button"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:text="@string/contactButton" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

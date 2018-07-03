@@ -1,0 +1,26 @@
+
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="half_margin">8dp</dimen>
+
+    <dimen name="quarter_margin">4dp</dimen>
+
+    <dimen name="standard_size">16sp</dimen>
+
+    <dimen name="book_text_size">20sp</dimen>
+
+    <dimen name="detail_size">20sp</dimen>
+
+    <dimen name="image_dimension">120dp</dimen>
+
+    <dimen name="spinner_dimension">48dp</dimen>
+
+    <dimen name="quantity_button_width">30dp</dimen>
+
+    <dimen name="quantity_button_height">20dp</dimen>
+
+</resources>
+

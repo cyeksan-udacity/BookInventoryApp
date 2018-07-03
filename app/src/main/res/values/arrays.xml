@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="array_quantity">
+
+        <item>@string/quantity_0</item>
+        <item>@string/quantity_1</item>
+        <item>@string/quantity_2</item>
+        <item>@string/quantity_3</item>
+        <item>@string/quantity_4</item>
+        <item>@string/quantity_5</item>
+        <item>@string/quantity_6</item>
+        <item>@string/quantity_7</item>
+        <item>@string/quantity_8</item>
+        <item>@string/quantity_9</item>
+        <item>@string/quantity_10</item>
+        <item>@string/quantity_11</item>
+        <item>@string/quantity_12</item>
+        <item>@string/quantity_13</item>
+        <item>@string/quantity_14</item>
+        <item>@string/quantity_15</item>
+        <item>@string/quantity_16</item>
+        <item>@string/quantity_17</item>
+        <item>@string/quantity_18</item>
+        <item>@string/quantity_19</item>
+        <item>@string/quantity_20</item>
+
+    </string-array>
+</resources>
